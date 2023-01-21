@@ -71,6 +71,7 @@ a{
 
 
 #headerHero{
+    margin: 0;
     background-color: #e5f4fb;
     padding: 10px;
     display: flex;
@@ -195,15 +196,6 @@ a{
     margin-right: 50px;
 }
 
-
-
-
-
-
-
-
-
-
 #headerHero-textBox-3{
     display: flex;
     justify-content: space-between;    
@@ -253,4 +245,54 @@ a{
 img{
     max-height: 100%;
     max-width: 100%;
+}
+
+#reviews{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #008fd0;
+    color: white;
+    align-items: center;
+    padding: 40px 0 60px 0;
+}
+
+#reviews h2{
+    font-size: 32px;
+    margin: 0 auto;
+}
+
+#reviews p{
+    max-width: 550px;
+    font-size: 18px;
+    font-family: "open_sansregular",sans-serif;
+    line-height: 1.45;
+}
+
+#swiper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.swiperArrow {
+    margin: 0;
+    border-radius: 50%;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviewCard{
+    margin: auto 50px;
+    text-align: left;
+}
+
+#feefo{
+    margin-top: 25px;
+    max-width: 300px;
 }

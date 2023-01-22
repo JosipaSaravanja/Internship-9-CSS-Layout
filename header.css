@@ -16,7 +16,7 @@
     justify-content:space-between;
 }
 
-#oceanFinance{
+#ocean-finance{
     height: 48px;
     display:flex;
     flex-grow:1;
@@ -28,7 +28,7 @@
     flex-direction: row;
 }
 
-.tabItem{
+.tab_item{
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
@@ -42,7 +42,7 @@
     font-size:16px;
 }
 
-.tabItem:hover{
+.tab_item:hover{
     background-color: #e5f4fb;
 }
 
@@ -50,10 +50,10 @@
     color:#008fd0;
 }
 
-.tabText{
+.tab_text{
     margin-right: 5px;
 }
 
-.tabArrow{
+.tab_arrow{
     max-height: 25px;
 }

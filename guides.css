@@ -1,0 +1,73 @@
+#guidesNavbar{
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#guidesNavbar div{
+    width: 950px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navTab{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color:#242a56;    
+}
+
+.navTab a{
+    text-decoration: none;
+}
+
+#activTab {
+    display: flex;
+    border-bottom: 5px solid #008fd0;
+    border-top: 5px solid rgba(255, 0, 0, 0);
+    color: #008fd0;
+}
+
+.navTab:hover{
+    border-bottom: 5px solid #008fd0;
+    border-top: 5px solid rgba(255, 0, 0, 0);
+}
+
+/*--------------------------------------------------*/
+
+#guidCards{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#guidCards div{
+    width: 950px;
+}
+
+.guidesCard{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 33%;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+.guidesCard h4{
+    margin: 15px 0 0 0;
+    font-family: "open_sansextrabold",sans-serif;
+    font-size: 18px;    
+    line-height: 22px;
+    color: #282d5c;
+}
+
+.guidesCard img{
+    border-radius: 5%;
+}
